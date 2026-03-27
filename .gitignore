@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Added for Streamlit App ---
+
+# Streamlit specific
+.streamlit/
+
+# Data files (Do not commit sensitive data!)
+*.xlsx
+*.csv
+*.xls
+
+# Local environment settings (if any)
+secrets.toml
+
